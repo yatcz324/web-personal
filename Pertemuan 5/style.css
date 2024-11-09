@@ -1,0 +1,59 @@
+/* Mengatur tampilan dasar untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+/* Wrapper untuk menempatkan konten di tengah */
+.container {
+    text-align: center;
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk navigasi */
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav hr {
+    border: none;
+    height: 3px;
+    background-color: blue;
+    margin-top: 10px;
+    width: 50%;
+}
+
+/* Gaya untuk teks konten */
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a.email {
+    color: red;
+}
+
+a.external {
+    color: purple;
+}

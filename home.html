@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Gaya untuk garis horizontal */
+        hr {
+            border: none;
+            height: 3px;
+            background-color: rgb(0, 102, 255);
+            width: 50%;
+            margin: 10px 0;
+        }
+
+        /* Gaya untuk font dan hyperlink */
+        font {
+            font-size: 1.2em;
+            color: rgb(255, 0, 0);
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(0, 102, 255);
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: rgb(0, 255, 136);
+        }
+
+        /* Gaya untuk tombol navigasi */
+        .nav-bar {
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+
+        .nav-bar a {
+            margin-right: 15px;
+            color: rgb(255, 0, 0);
+            padding: 8px 12px;
+            background-color: rgba(0, 102, 255, 0.2);
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-bar a:hover {
+            background-color: rgb(0, 102, 255);
+            color: rgb(255, 255, 255);
+            box-shadow: 0 5px 15px rgba(0, 102, 255, 0.4);
+        }
+
+        /* Animasi RGB */
+        .welcome-message {
+            font-size: 1.4em;
+            background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 102, 255), rgb(0, 255, 136));
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: gradientText 5s ease-in-out infinite;
+        }
+
+        @keyframes gradientText {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigasi dengan hyperlink -->
+    <hr>
+    <div class="nav-bar">
+        <a href="home.html">Home</a> 
+        <a href="profile.html">Profil</a> 
+        <a href="about.html">About</a>  
+        <a href="tugas.html">tugas</a>
+    </div>
+    <hr>
+    
+    <!-- Pesan Selamat Datang -->
+    <div>
+        <h1>Selamat Datang!</h1>
+        <p>Terima kasih telah mengunjungi situs kami. Kami harap Anda mendapatkan pengalaman yang menyenangkan!</p>
+    </div>
+
+</body>
+</html>
